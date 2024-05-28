@@ -1,0 +1,33 @@
+.container{
+    width: 300px;
+    height: auto;
+    background-color: rgb(197, 197, 197);
+    border: 2px solid gray;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: left;
+    display: block;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    .fa-star{
+       
+        font-size: 20px;
+        translate: all .2s linear;
+        cursor: pointer;
+        margin: 0 2px;
+        &:hover{
+            transform: scale(1.3);
+        }
+    }
+  .voted{
+    color: rgb(255, 208, 0);
+    transform: scale(1.3);
+  }
+  .hover{
+    color: rgb(255, 136, 0);
+    transform: scale(1.3);
+  }
+}
+
